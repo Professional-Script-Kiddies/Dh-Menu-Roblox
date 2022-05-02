@@ -1,1 +1,13 @@
+local games = {
+    ["CarDealershipTycoon"] = 1554960397
+}
 
+for k,v in next, games do 
+    if game.PlaceId == v then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DH-Fake/Dh-Menu-Roblox/main/" .. k))();
+        print("Dh Menu Para o Jogo "..k.." Carregado")
+    else
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DH-Fake/Dh-Menu-Roblox/main/src"))();
+        print("Nenhum Dh Menu Encontrado Para Esse Jogo, Menu Padrao Carregado")
+    end
+end
