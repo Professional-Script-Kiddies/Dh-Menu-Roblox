@@ -1,1 +1,4 @@
-
+local logins = {
+    ["D1guinh0"] = "Dono",
+}
+return logins
