@@ -1,4 +1,5 @@
-local logins = {
+local ret = {}
+ret.logins = {
     ["D1guinh0"] = "Dono",
 }
-return logins
+return ret
